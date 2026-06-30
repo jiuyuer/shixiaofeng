@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>迷途小书童</title>
+  <link rel="icon" type="image/png" href="./favicon.svg" />
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font: 16px/1.8 "Lato", "Microsoft Jhenghei", "Hiragino Sans GB",
+        "Microsoft YaHei", arial, sans-serif;
+      color: #333;
+    }
+
+    ::selection {
+      background: #222;
+      color: white;
+    }
+
+    a {
+      color: #333;
+    }
+
+    .profile {
+      text-align: center;
+      height: 100vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .profile__container {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin-top: -100px;
+    }
+
+    .profile__avatar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:0 auto 40px;
+      background-color: #acc8ca;
+      border-radius: 50%;
+      width: 10rem;
+      height: 10rem;
+      padding:6px;
+    }
+
+    .profile__avatar img{
+      width: 8rem;
+    }
+
+    .profile__name {
+      margin: 1rem 0;
+    }
+
+    .profile__description {
+      color: #7f8c8d;
+      margin: 1rem 4rem;
+    }
+
+    .menu {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .menu a {
+      display: inline-block;
+      position: relative;
+      margin: 0 0 5px 10px;
+      text-decoration: none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .menu a:hover {
+      border-bottom: 1px solid #333;
+    }
+
+    .menu a:active {
+      top: 1px !important;
+    }
+
+    .menu a:first-child {
+      margin-left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="profile">
+    <div class="profile__container">
+      <div class="profile__avatar"><img src="./author.png" /></div>
+      <h1 class="profile__name">迷途小书童</h1>
+      <blockquote class="profile__description">
+        A Web developer who loves to Reading and photography
+      </blockquote>
+      <div class="menu">
+        <a href="https://github.com/jiuyuer">GitHub</a>
+        <a href="https://webcjs.com">Blog</a>
+        <a href="https://webcjs.tuchong.com">Photos</a>
+        <a href="https://weibo.com/newselement">WeiBo</a>
+      </div>
+    </div>
+    </div>
+  </section>
+</body>
+
+</html>
